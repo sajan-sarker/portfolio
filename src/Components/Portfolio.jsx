@@ -29,8 +29,8 @@ const imageAltText = "desktop with books and laptop";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
-const projectList = [
-  {
+const projectList = [];
+  /**{
     title: "10 Things To Know About Azure Static Web Apps 🎉",
     description:
       "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
@@ -54,7 +54,7 @@ const projectList = [
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
-];
+];**/
 
 const Portfolio = () => {
   return (

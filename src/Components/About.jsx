@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Computer Science & Engineering student at North South University Passionate on Software Engineering.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,20 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "C programming",
+  "C++ programming",
+  "Python programming",
+  "Java programming",
+  "Git & GitHub",
+  "Data Structures & Algorithms",
+  "Problem Solving",
+  "Object Oriented Programming",
+  "Machine Learning",
+  "Deep Learning",
+  "Artificial Intelligence",
+  "Automation Scripting",
+  "Trouble Shooting & Debugging",
+  "Version Control",
 ];
 
 /**
@@ -45,7 +54,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I'm Passionate about Software Engineering. Here you'll find a collection of projects and contributions that reflect my journey in the world of technology and beyond.";
 
 const About = () => {
   return (
