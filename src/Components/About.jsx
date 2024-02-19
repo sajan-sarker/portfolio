@@ -16,10 +16,12 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
+/**
 import image from "../images/motion-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
-
+<img className="background" src={image} alt={imageAltText} />
+**/
 /**
  * Sort description that expands on your title on the Home component.
  */
@@ -59,25 +61,28 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      
       <div
         style={{
           backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
+          width: "60%",
+          padding: "5rem",
+          margin: "1rem auto",
           textAlign: "center",
         }}
       >
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+        <h2>Skills</h2>
+        <br></br>
+        <br></br>
         <ul
           style={{
             textAlign: "left",
             columns: 2,
             fontSize: "1.25rem",
-            margin: "2rem 3rem",
+            margin: "0rem 3rem",
             gap: "3rem",
           }}
         >
